@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portforlio Wensite</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ae208be959.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id = "header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id = "sidemenu">
+                    <li> 
+                        <a href="#header">Home</a>
+                        
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#services">Achievements</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Coding Profile</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                    <i class="fas fa-times" onclick = "closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text" >
+               
+                  
+               
+                <h1>
+                    Hi <br>i am  </br> <span> Puspendra </span> 
+                </h1>
+            </div>
+        </div>
+    </div>
+    <!---------- About ------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/puspendra.png" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class = "sub-title">
+                        About Me
+                    </h1>
+                    <p class = "summary">
+                        I'm Puspendra Singh Yadav, a versatile <span style="color:#b54769">web developer</span> and  <span style="color:#b54769">competitive programmer.</span>  
+                        With expertise in <span style="color:#b54769">front-end Development</span>
+                         I create seamless, visually appealing websites. 
+                         Proficient in  <span style="color:#b54769">HTML, CSS, JavaScript.</span>
+                         I craft dynamic and engaging user experiences.
+                          My passion for <span style="color:#b54769">algorithms and problem-solving</span> fuels my efficiency in coding. 
+                          I prioritize clean, optimized code to ensure high performance.
+                         Let's collaborate to bring your ideas to life and create exceptional web experiences together.
+                    </p>
+                        <div class="tab-titles">
+                            <p class= "tab-links active-link" onclick = "opentab('skills')">skils</p>
+                            <p class= "tab-links" onclick = "opentab('experience')">Experience</p>
+                            <p class= "tab-links" onclick = "opentab('education')">Education</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id = "skills">
+                            <ul>
+                                <li><span>Web Development</span><br>Web app Development</li>
+                                <li><span>Competitive Programming</span><br>Solving algorithmic Problems</li>
+                                <li><span>TeamWork and colaboration</span><br> leveraging collective strengths to solve problems efficiently</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id = "experience">
+                            <ul>
+                                <li><span>2023 - Current</span><br>CodeIIEST CP-DSA core team</li>
+                                <p>Designing problems for algorithmic coding contest</p>
+                                <!-- <li><span>2019 - 2021</span><br>Team lead at StartApp LLC.</li>
+                                <li><span>2016 - 2017</span><br>Internship at ekart ecommerce</li> -->
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id = "education">
+                            <ul>
+                                <li><span>2021 - 2025 </span><br>Indian Institute of Engineering Science and Technology, Shibpur</li>
+                                <p>B-tech In Information Technology</p>
+                                <p>CGPA - 8.64 (Upto 4th Semester)</p>
+
+                                <li><span>2019 - 2020</span><br>HAL Vidyalaya Kanpur</li>
+                                <p>Higher Secondary</p>
+                                <p>Score: 94.6%</p>
+
+                                <!-- <li><span>2014</span><br>BBA from ISM Banglore</li> -->
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------Services------------>
+
+    <div id="services">
+        <div class="container">
+            <h1 class = "sub-title"> </h1>
+              <h1>Achievements</h1>
+
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>
+                            Google Coding Compition
+                        </h2>
+                            <p>
+                                <ul>
+                                    <li>Secured Air 613 and Global Rank 1307 in Google Farewell CodeJam Round</li>
+                                    <li>Secured Global rank 1785 in Google Kickstart Round E 2022</li>
+                                </ul>
+                            </p>
+                            <a href="https://drive.google.com/file/d/1Xf_nOb-cOo139ai3eFlwKXrMuif_bzYB/view?pli=1">Learn More</a>
+                        
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h2>
+                            ICPC 
+                        </h2>
+                            <!-- <p>
+                               International Collegiate Programming Contest 
+                            <p> -->
+                            <p>
+                                <ul>
+                                    <li>Our Team Coders Hustle Secured Rank 584 in ICPC Kanpur-Mathura 2022 Qualifier Round</li>
+                                </ul>
+                            </p>
+                            <a href="https://drive.google.com/file/d/14mTxbEBbVZc8aE9D6Yh6_HuYOFA4GQlI/view?usp=sharing">Learn More</a>
+                        
+                    </div>
+
+                    <div>
+                        <i class="fa-brands fa-app-store-ios"></i>
+                        <h2>
+                            Competitive Programming
+                        </h2>
+                        
+                            <p>
+                                <ul>
+                                    <li>Specialist at CodeForces Max Rating (1449)</li>
+                                    <li>Knight at LeetCode Max Rating (1926)</li>
+                                    <li>CodeChef Max Rating (1795)</li>
+                                </ul>
+                            </p>
+                            <!-- <a href="#">Learn More</a> -->
+                    </div>
+                </div>
+        </div>
+    </div>
+    <!-- --------------------Portfolio----------------- -->
+    
+    <div id="portfolio">
+        <div class="container">
+            <h1 class = "sub-title">Coding Profile</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/codeforces.png">
+                    <div class="layer">
+                        <h3>
+                            CodeForces
+                        </h3>
+                        <p>
+                            Among top 3000 competitive programmers in India
+                        </p>
+                        <a href="https://codeforces.com/profile/puspendra_09"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Leetcode.png">
+                    <div class="layer">
+                        <h3>
+                            LeetCode
+                        </h3>
+                        <p>
+                            Top 3.94% globally
+                        </p>
+                        <a href="https://leetcode.com/puspendra_09/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/codechef.png">
+                    <div class="layer">
+                        <h3>
+                            CodeChef
+                        </h3>
+                        <p>
+                            
+                        </p>
+                        <a href="https://www.codechef.com/users/puspendra_09"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class = "btn">See More</a>
+        </div>
+    </div>
+
+    <!-- --------------------Contact------------------------- -->
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class = "sub-title">
+                            Contact Me
+                        </h1>
+                        <p>
+                            <i class="fa-solid fa-paper-plane"></i>  <a href="mailto:puspendrayadav149@gmail.com" id="emailid">puspendrayadav149@gmail.com</a>
+                        </p> 
+                        <p>
+                            <i class="fa-solid fa-phone-volume"></i>  <a href="tel:+91-6386546086" id = "emailid">+91-6386546086</a>
+                           
+                        </p>
+                        <div class="social-icons">
+                            <a href="https://github.com/ProElectro121"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/puspendra-singh-yadav-b8421a24a/"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="images/Puspendra_Yadav_Resume_Updated.pdf" download class = "btn btn2">DownLoad Cv</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name = "submit-to-google-sheet">
+                            <input type="text" name = "Name" placeholder="Your Name" required>
+                            <input type="email" name = "email" placeholder="Your Email" required>
+                            <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                            <button type = "submit" class = "btn btn2">Submit</button>
+                        </form>
+                            <span id = "msg"></span>
+                    </div> 
+                </div>
+            </div>
+            <div class="copyright">
+                <p>
+                    copyright @ Puspendra. Made with <i class="fa-solid fa-heart"></i> by puspendra
+                </p>
+            </div>
+        </div>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname) {
+                for(tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                
+                for(tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+
+        <script>
+
+            var sidemeu = documnet.getElementById("sidemenu");
+
+            function openmenu() {
+                sidemeu.style.right = "0";
+            }
+
+            function closemenu() {
+                sidemeu.style.right = "200px";
+            }
+
+        </script>
+
+            <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbz9tmFU72NrSXPxkijC0mQCHmw4Pzak8Npp0VQkIMMtG64tbyPPQR9VBWkX39jfmG2bRg/exec'
+            const form = document.forms['submit-to-google-sheet']
+
+            const msg = document.getElementById("msg");
+
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent succesfully"
+                    setTimeout(function() {
+                        msg.innerHTML = ""
+                    } , 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+            </script>
+</body>
+</html>
